@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>فروشگاه آنلاین</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'vazir': ['Vazir', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Vazir:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Vazir', sans-serif; }
+        .product-card:hover { transform: translateY(-5px); }
+        .cart-badge { animation: bounce 0.5s ease-in-out; }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <h1 class="text-4xl font-bold text-center my-10 text-gray-800">فروشگاه آنلاین</h1>
+    <p class="text-center text-gray-600">این فایل تستی برای راه‌اندازی سایت شماست. نسخه کامل باید با کد کامل جایگزین شود.</p>
+</body>
+</html>
